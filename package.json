@@ -1,0 +1,23 @@
+{
+  "name": "eb-deployment-test",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjedlikowski/eb-deployment-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjedlikowski/eb-deployment-test/issues"
+  },
+  "homepage": "https://github.com/sjedlikowski/eb-deployment-test#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
