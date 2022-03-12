@@ -3,7 +3,7 @@ name: Deploy Node app on AWS Elastic Beanstalk
 env:
   APP_NAME: eb-deployment-test
   S3_BUCKET: eb-deployment-test-bucket
-  AWS_REGION: us-central-1
+  AWS_REGION: eu-central-1
   AWS_PLATFORM: Docker
   PIPELINE_ID: ${GITHUB_RUN_ID}-${GITHUB_RUN_NUMBER}
 
